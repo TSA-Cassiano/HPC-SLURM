@@ -1,0 +1,3 @@
+#!/bin/bash
+ exit 0
+ iptables-restore < /etc/iptables.sav

@@ -1,0 +1,49 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*****************************************************************************************
+                              ============================
+                               Welcome to UnB HPC Cluster
+                              ============================
+
+PLEASE!!!!!!! READ THIS BEFORE ASKING THINGS ON MY WHATTSAPP!
+
+DO NO USE THE DISK AS A BACKUP. REMOVE ANYTHING THAT IS NOT BEING USED IN CALCULATIONS
+
+* BASIC COMMANDS SLURM:
+	sinfo                  : cluster/nodes status
+	squeue                 : queue status
+	scancel ID             : kills the job of number ID
+	sbatch script.sh       : submits the job
+	scontrol show jobid ID : gives a full report on a given job
+	scancel -u username    : kill all your jobs
+
+* COMMAND TO COPY FOLDERS TO YOUR LOCAL MACHINE:
+	scp -r -P 80 user_name@IP:/path_remote/ /path_local/
+
+* COMMAND TO COPY FILES TO YOUR LOCAL MACHINE:
+	scp -P 80 user_name@IP:/path_remote/ /path_local/
+
+NOTE1: The folder "CLUSTER_TEMPLATES" contains examples of numerous job submissions. 
+NOTE2: DOT NOT CREATE DIRECTORIES WITH SPACE/SPECIAL CHARACTERS EX.: "ESTRUTURA ELETRÔNICA".
+
+****************************************************************************************
