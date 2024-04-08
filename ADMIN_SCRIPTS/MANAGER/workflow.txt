@@ -1,0 +1,12 @@
+CLUSTER
+
+hostnames.sh
+install_debs.sh
+ssh_pubkey.sh
+nfs.sh
+update_slurmconfig.sh
+
+
+
+USERS
+create_user.sh
