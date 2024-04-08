@@ -8,23 +8,23 @@ During my physics PhD, I was forced to build a cluster without help. I had no pr
 3. Has a script for user creation
 4. Gaussian 16 bash script configuration for multiple users
 
-Here, I present two approaches to setting up the cluster: the manual and the automatic.
-1. The manual consists of a hands-on set of tasks done through a terminal. You will have to type everything. It is highly educational but takes a lot of time and scales badly with the number of nodes.
-2. The automatic is fast but is not so educational. If you need to adjust the scripts, understanding the manual way facilitates the process.
+In this repo, I present two approaches to setting up the cluster: the [manual](https://github.com/TSA-Cassiano/HPC-SLURM/wiki/Manual-setup) and the [automatic](https://github.com/TSA-Cassiano/HPC-SLURM/wiki/Automatic-setup).
+1. The [manual](https://github.com/TSA-Cassiano/HPC-SLURM/wiki/Manual-setup) consists of a hands-on set of tasks done through a terminal. You will have to type everything. It is highly educational but takes a lot of time and scales badly with the number of nodes.
+2. The [automatic](https://github.com/TSA-Cassiano/HPC-SLURM/wiki/Automatic-setup) is fast but is not so educational. If you need to adjust the scripts, understanding the manual way facilitates the process.
 
-The manual steps can be found in here, while explanation regarding the automatic approach is here. Go to one of these links after setting up the physical arragment of the cluster explained below.
-
-Regardless of the approach, you need to physically set up the cluster. The structure requires at least the following equipment:
-
-1. 1 PC to be the master
-2. At least 1 PC to be the slave
-3. 1 switch
-4. 1 additional Ethernet card
-
-The master will have two connections: the intranet (a local net connecting the nodes with the master) and the internet (master -> world). The additional card is to allow the additional connection. To set up the cluster structure do:
-1. Install the additional card in the master
-2. Connect a Ethernet cable from one of the master's spots to the switch and another to the internet provider.
-3. Connect a Ethernet cable from the switch to the slave.
+To proceed, go to the [wiki page](https://github.com/TSA-Cassiano/HPC-SLURM/wiki), where the physical setup is provided.
 
 
+I would not be able to do this repository without the great content from the following references:
 
+https://dannylinuxnoob.blogspot.com/2017/08/building-home-hpc-computer-cluster.html
+
+https://nekodaemon.com/2022/09/02/Slurm-Quick-Installation-for-Cluster-on-Ubuntu-20-04/
+
+https://www.blasbenito.com/post/01_home_cluster/
+
+https://www.youtube.com/watch?v=gvR1eQyxS9I
+
+https://drtailor.medium.com/how-to-setup-slurm-on-ubuntu-20-04-for-single-node-work-scheduling-6cc909574365
+
+https://h3abionet.org/images/Technical_guides/L2_02_Basic_HPC_Cluster_Setup_Howto_Guide.pdf
